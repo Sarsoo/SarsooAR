@@ -14,24 +14,19 @@ struct ContentView : View {
     @State var showingSession = false
     
     var body: some View {
-        TabView {
-            NavigationView {
-                List {
-                    Button(action: { self.showingSession = true }) {
-                        Text("Launch Session")
-                    }.sheet(isPresented: $showingSession) {
-                        ARViewContainer().edgesIgnoringSafeArea(.all)
-                    }
+        NavigationView {
+            List {
+                NavigationLink(destination: ARViewContainer().edgesIgnoringSafeArea(.all)) {
+                    Text("Launch Session")
                 }
-                .listStyle(GroupedListStyle())
-                .navigationBarTitle("SarsooAR")
-            }
-            .tabItem {
-                VStack {
-                    Image(systemName: "camera")
-                    Text("AR")
+                Button(action: { self.showingSession = true }) {
+                    Text("Launch Modal Session")
+                }.sheet(isPresented: $showingSession) {
+                    ARViewContainer().edgesIgnoringSafeArea(.all)
                 }
             }
+            .listStyle(GroupedListStyle())
+            .navigationBarTitle("SarsooAR")
         }
     }
 }
