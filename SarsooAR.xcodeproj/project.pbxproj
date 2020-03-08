@@ -1,0 +1,599 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E906F80524154B21004E1E31 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E906F80424154B21004E1E31 /* AppDelegate.swift */; };
+		E906F80724154B21004E1E31 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E906F80624154B21004E1E31 /* ContentView.swift */; };
+		E906F80924154B21004E1E31 /* Experience.rcproject in Sources */ = {isa = PBXBuildFile; fileRef = E906F80824154B21004E1E31 /* Experience.rcproject */; };
+		E906F80B24154B29004E1E31 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E906F80A24154B29004E1E31 /* Assets.xcassets */; };
+		E906F80E24154B29004E1E31 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E906F80D24154B29004E1E31 /* Preview Assets.xcassets */; };
+		E906F81124154B29004E1E31 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E906F80F24154B29004E1E31 /* LaunchScreen.storyboard */; };
+		E906F81C24154B2A004E1E31 /* SarsooARTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E906F81B24154B2A004E1E31 /* SarsooARTests.swift */; };
+		E906F82724154B2A004E1E31 /* SarsooARUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = E906F82624154B2A004E1E31 /* SarsooARUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E906F81824154B2A004E1E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E906F7F924154B21004E1E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E906F80024154B21004E1E31;
+			remoteInfo = SarsooAR;
+		};
+		E906F82324154B2A004E1E31 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E906F7F924154B21004E1E31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E906F80024154B21004E1E31;
+			remoteInfo = SarsooAR;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E906F80124154B21004E1E31 /* SarsooAR.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SarsooAR.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E906F80424154B21004E1E31 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		E906F80624154B21004E1E31 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		E906F80824154B21004E1E31 /* Experience.rcproject */ = {isa = PBXFileReference; lastKnownFileType = file.rcproject; path = Experience.rcproject; sourceTree = "<group>"; };
+		E906F80A24154B29004E1E31 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		E906F80D24154B29004E1E31 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E906F81024154B29004E1E31 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		E906F81224154B29004E1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E906F81724154B2A004E1E31 /* SarsooARTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarsooARTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E906F81B24154B2A004E1E31 /* SarsooARTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarsooARTests.swift; sourceTree = "<group>"; };
+		E906F81D24154B2A004E1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E906F82224154B2A004E1E31 /* SarsooARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarsooARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E906F82624154B2A004E1E31 /* SarsooARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarsooARUITests.swift; sourceTree = "<group>"; };
+		E906F82824154B2A004E1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E906F7FE24154B21004E1E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E906F81424154B2A004E1E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E906F81F24154B2A004E1E31 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E906F7F824154B21004E1E31 = {
+			isa = PBXGroup;
+			children = (
+				E906F80324154B21004E1E31 /* SarsooAR */,
+				E906F81A24154B2A004E1E31 /* SarsooARTests */,
+				E906F82524154B2A004E1E31 /* SarsooARUITests */,
+				E906F80224154B21004E1E31 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E906F80224154B21004E1E31 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E906F80124154B21004E1E31 /* SarsooAR.app */,
+				E906F81724154B2A004E1E31 /* SarsooARTests.xctest */,
+				E906F82224154B2A004E1E31 /* SarsooARUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E906F80324154B21004E1E31 /* SarsooAR */ = {
+			isa = PBXGroup;
+			children = (
+				E906F80424154B21004E1E31 /* AppDelegate.swift */,
+				E906F80624154B21004E1E31 /* ContentView.swift */,
+				E906F80824154B21004E1E31 /* Experience.rcproject */,
+				E906F80A24154B29004E1E31 /* Assets.xcassets */,
+				E906F80F24154B29004E1E31 /* LaunchScreen.storyboard */,
+				E906F81224154B29004E1E31 /* Info.plist */,
+				E906F80C24154B29004E1E31 /* Preview Content */,
+			);
+			path = SarsooAR;
+			sourceTree = "<group>";
+		};
+		E906F80C24154B29004E1E31 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				E906F80D24154B29004E1E31 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		E906F81A24154B2A004E1E31 /* SarsooARTests */ = {
+			isa = PBXGroup;
+			children = (
+				E906F81B24154B2A004E1E31 /* SarsooARTests.swift */,
+				E906F81D24154B2A004E1E31 /* Info.plist */,
+			);
+			path = SarsooARTests;
+			sourceTree = "<group>";
+		};
+		E906F82524154B2A004E1E31 /* SarsooARUITests */ = {
+			isa = PBXGroup;
+			children = (
+				E906F82624154B2A004E1E31 /* SarsooARUITests.swift */,
+				E906F82824154B2A004E1E31 /* Info.plist */,
+			);
+			path = SarsooARUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E906F80024154B21004E1E31 /* SarsooAR */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E906F82B24154B2A004E1E31 /* Build configuration list for PBXNativeTarget "SarsooAR" */;
+			buildPhases = (
+				E906F7FD24154B21004E1E31 /* Sources */,
+				E906F7FE24154B21004E1E31 /* Frameworks */,
+				E906F7FF24154B21004E1E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SarsooAR;
+			productName = SarsooAR;
+			productReference = E906F80124154B21004E1E31 /* SarsooAR.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E906F81624154B2A004E1E31 /* SarsooARTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E906F82E24154B2A004E1E31 /* Build configuration list for PBXNativeTarget "SarsooARTests" */;
+			buildPhases = (
+				E906F81324154B2A004E1E31 /* Sources */,
+				E906F81424154B2A004E1E31 /* Frameworks */,
+				E906F81524154B2A004E1E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E906F81924154B2A004E1E31 /* PBXTargetDependency */,
+			);
+			name = SarsooARTests;
+			productName = SarsooARTests;
+			productReference = E906F81724154B2A004E1E31 /* SarsooARTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		E906F82124154B2A004E1E31 /* SarsooARUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E906F83124154B2A004E1E31 /* Build configuration list for PBXNativeTarget "SarsooARUITests" */;
+			buildPhases = (
+				E906F81E24154B2A004E1E31 /* Sources */,
+				E906F81F24154B2A004E1E31 /* Frameworks */,
+				E906F82024154B2A004E1E31 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E906F82424154B2A004E1E31 /* PBXTargetDependency */,
+			);
+			name = SarsooARUITests;
+			productName = SarsooARUITests;
+			productReference = E906F82224154B2A004E1E31 /* SarsooARUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E906F7F924154B21004E1E31 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = Sarsoo;
+				TargetAttributes = {
+					E906F80024154B21004E1E31 = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+					E906F81624154B2A004E1E31 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E906F80024154B21004E1E31;
+					};
+					E906F82124154B2A004E1E31 = {
+						CreatedOnToolsVersion = 11.3.1;
+						TestTargetID = E906F80024154B21004E1E31;
+					};
+				};
+			};
+			buildConfigurationList = E906F7FC24154B21004E1E31 /* Build configuration list for PBXProject "SarsooAR" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E906F7F824154B21004E1E31;
+			productRefGroup = E906F80224154B21004E1E31 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E906F80024154B21004E1E31 /* SarsooAR */,
+				E906F81624154B2A004E1E31 /* SarsooARTests */,
+				E906F82124154B2A004E1E31 /* SarsooARUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E906F7FF24154B21004E1E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E906F81124154B29004E1E31 /* LaunchScreen.storyboard in Resources */,
+				E906F80E24154B29004E1E31 /* Preview Assets.xcassets in Resources */,
+				E906F80B24154B29004E1E31 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E906F81524154B2A004E1E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E906F82024154B2A004E1E31 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E906F7FD24154B21004E1E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E906F80724154B21004E1E31 /* ContentView.swift in Sources */,
+				E906F80524154B21004E1E31 /* AppDelegate.swift in Sources */,
+				E906F80924154B21004E1E31 /* Experience.rcproject in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E906F81324154B2A004E1E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E906F81C24154B2A004E1E31 /* SarsooARTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E906F81E24154B2A004E1E31 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E906F82724154B2A004E1E31 /* SarsooARUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E906F81924154B2A004E1E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E906F80024154B21004E1E31 /* SarsooAR */;
+			targetProxy = E906F81824154B2A004E1E31 /* PBXContainerItemProxy */;
+		};
+		E906F82424154B2A004E1E31 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E906F80024154B21004E1E31 /* SarsooAR */;
+			targetProxy = E906F82324154B2A004E1E31 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E906F80F24154B29004E1E31 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E906F81024154B29004E1E31 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E906F82924154B2A004E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		E906F82A24154B2A004E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E906F82C24154B2A004E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SarsooAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UZ2659FDY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SarsooAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.sarsoo.SarsooAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E906F82D24154B2A004E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SarsooAR/Preview Content\"";
+				DEVELOPMENT_TEAM = 8UZ2659FDY;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SarsooAR/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.sarsoo.SarsooAR;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		E906F82F24154B2A004E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UZ2659FDY;
+				INFOPLIST_FILE = SarsooARTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.sarsoo.SarsooARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SarsooAR.app/SarsooAR";
+			};
+			name = Debug;
+		};
+		E906F83024154B2A004E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UZ2659FDY;
+				INFOPLIST_FILE = SarsooARTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.sarsoo.SarsooARTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SarsooAR.app/SarsooAR";
+			};
+			name = Release;
+		};
+		E906F83224154B2A004E1E31 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UZ2659FDY;
+				INFOPLIST_FILE = SarsooARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.sarsoo.SarsooARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SarsooAR;
+			};
+			name = Debug;
+		};
+		E906F83324154B2A004E1E31 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 8UZ2659FDY;
+				INFOPLIST_FILE = SarsooARUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = xyz.sarsoo.SarsooARUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = SarsooAR;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E906F7FC24154B21004E1E31 /* Build configuration list for PBXProject "SarsooAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E906F82924154B2A004E1E31 /* Debug */,
+				E906F82A24154B2A004E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E906F82B24154B2A004E1E31 /* Build configuration list for PBXNativeTarget "SarsooAR" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E906F82C24154B2A004E1E31 /* Debug */,
+				E906F82D24154B2A004E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E906F82E24154B2A004E1E31 /* Build configuration list for PBXNativeTarget "SarsooARTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E906F82F24154B2A004E1E31 /* Debug */,
+				E906F83024154B2A004E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E906F83124154B2A004E1E31 /* Build configuration list for PBXNativeTarget "SarsooARUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E906F83224154B2A004E1E31 /* Debug */,
+				E906F83324154B2A004E1E31 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E906F7F924154B21004E1E31 /* Project object */;
+}
