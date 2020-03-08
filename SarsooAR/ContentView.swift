@@ -10,8 +10,29 @@ import SwiftUI
 import RealityKit
 
 struct ContentView : View {
+    
+    @State var showingSession = false
+    
     var body: some View {
-        return ARViewContainer().edgesIgnoringSafeArea(.all)
+        TabView {
+            NavigationView {
+                List {
+                    Button(action: { self.showingSession = true }) {
+                        Text("Launch Session")
+                    }.sheet(isPresented: $showingSession) {
+                        ARViewContainer().edgesIgnoringSafeArea(.all)
+                    }
+                }
+                .listStyle(GroupedListStyle())
+                .navigationBarTitle("SarsooAR")
+            }
+            .tabItem {
+                VStack {
+                    Image(systemName: "camera")
+                    Text("AR")
+                }
+            }
+        }
     }
 }
 

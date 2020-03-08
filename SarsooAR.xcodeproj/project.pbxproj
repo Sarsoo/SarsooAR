@@ -49,6 +49,7 @@
 		E906F82224154B2A004E1E31 /* SarsooARUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SarsooARUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E906F82624154B2A004E1E31 /* SarsooARUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SarsooARUITests.swift; sourceTree = "<group>"; };
 		E906F82824154B2A004E1E31 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E906F834241554A2004E1E31 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +80,7 @@
 		E906F7F824154B21004E1E31 = {
 			isa = PBXGroup;
 			children = (
+				E906F834241554A2004E1E31 /* README.md */,
 				E906F80324154B21004E1E31 /* SarsooAR */,
 				E906F81A24154B2A004E1E31 /* SarsooARTests */,
 				E906F82524154B2A004E1E31 /* SarsooARUITests */,

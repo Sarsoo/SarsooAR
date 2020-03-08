@@ -23,12 +23,13 @@
                                     {
                                       "configurationBox" : {
                                         "configuration" : {
-                                          "animationStyle" : "basic",
+                                          "animationStyle" : "wild",
                                           "duration" : 1.7699999809265137,
-                                          "emphasisAnimationType" : "float",
+                                          "emphasisAnimationType" : "spin",
                                           "iterations" : 1,
                                           "target" : [
-                                            "3788A5B5-0388-488A-8304-7B90FEBA6FAC"
+                                            "3788A5B5-0388-488A-8304-7B90FEBA6FAC",
+                                            "05ACEBFF-4612-4E58-97C3-33A01C840AF2"
                                           ]
                                         },
                                         "name" : {
@@ -66,7 +67,7 @@
                             {
                               "configurationBox" : {
                                 "configuration" : {
-                                  "distance" : 0.2793009877204895,
+                                  "distance" : 0.562347412109375,
                                   "target" : [
                                     "3788A5B5-0388-488A-8304-7B90FEBA6FAC"
                                   ],
@@ -75,6 +76,79 @@
                                 "name" : "proximity"
                               },
                               "identifier" : "86752523-5941-42AB-A97A-6467A375E67A",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ]
+                    }
+                  ],
+                  "__version" : 2
+                },
+                {
+                  "__content" : [
+                    {
+                      "actionGroups" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurations" : [
+                                {
+                                  "__content" : [
+                                    {
+                                      "configurationBox" : {
+                                        "configuration" : {
+                                          "animationStyle" : "basic",
+                                          "duration" : 1,
+                                          "emphasisAnimationType" : "bounce",
+                                          "iterations" : 1,
+                                          "target" : [
+                                            "A2ED9927-7A82-4815-9DBB-E427A0CC634B"
+                                          ]
+                                        },
+                                        "name" : {
+                                          "type" : "emphasis"
+                                        }
+                                      },
+                                      "identifier" : "5AD02865-21EF-4780-B8C0-D1D42605A017",
+                                      "isEnabled" : true
+                                    }
+                                  ],
+                                  "__version" : 1
+                                }
+                              ],
+                              "identifier" : "E7D59FF6-9477-4791-AABF-1090FB1BB078",
+                              "isEnabled" : true
+                            }
+                          ],
+                          "__version" : 1
+                        }
+                      ],
+                      "color" : [
+                        0.21568627655506134,
+                        0.72549021244049072,
+                        0.80000001192092896,
+                        1
+                      ],
+                      "identifier" : "A6D597F4-AD02-4CBE-B644-F00CF29C4FAE",
+                      "isEnabled" : true,
+                      "isLooping" : false,
+                      "isModal" : false,
+                      "name" : "Behaviour 1",
+                      "triggers" : [
+                        {
+                          "__content" : [
+                            {
+                              "configurationBox" : {
+                                "configuration" : {
+                                  "target" : [
+                                    "A2ED9927-7A82-4815-9DBB-E427A0CC634B"
+                                  ]
+                                },
+                                "name" : "tapTarget"
+                              },
+                              "identifier" : "8352DD77-E6DB-4DD1-B5FD-3E5AE33F13A4",
                               "isEnabled" : true
                             }
                           ],
@@ -397,21 +471,21 @@
               "title" : "Box",
               "viewTransform" : {
                 "cameraTransform" : [
-                  0.97084146738052368,
-                  -5.587935802964239e-08,
-                  -0.23972232639789581,
+                  0.99868166446685791,
+                  -5.029141902923584e-08,
+                  -0.051330983638763428,
                   0,
-                  -0.092462286353111267,
-                  0.92262160778045654,
-                  -0.37445956468582153,
+                  -0.016422633081674576,
+                  0.94743841886520386,
+                  -0.31951621174812317,
                   0,
-                  0.22117307782173157,
-                  0.38570621609687805,
-                  0.89571928977966309,
+                  0.048632964491844177,
+                  0.31993809342384338,
+                  0.94618934392929077,
                   0,
-                  0.37851834297180176,
-                  0.54469352960586548,
-                  0.99601411819458008,
+                  0.18197430670261383,
+                  0.47035521268844604,
+                  1.0450206995010376,
                   1
                 ],
                 "sceneTransform" : [
